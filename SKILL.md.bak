@@ -1,13 +1,12 @@
 ---
 name: ens-manager
 description: Register ENS names, create subdomains, and publish IPFS sites without manual contract calls
-version: 1.2.0
-license: MIT
+version: 1.1.0
 requirements:
   - Node.js 18+
-  - viem ^1.20.0 (core, always required)
-  - content-hash ^2.5.2 (optional, only for IPFS features)
-  - Ethereum wallet keystore or private key
+  - viem ^1.20.0
+  - content-hash ^2.5.2
+  - Ethereum wallet keystore
   - ETH for gas and registration
 ---
 

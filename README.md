@@ -43,6 +43,37 @@ Automates the complete ENS workflow from registration to published website - one
 
 ---
 
+
+
+---
+
+## 📦 Dependencies
+
+**Install before using:**
+
+```bash
+cd scripts/
+npm install viem          # Core (required for all scripts)
+npm install content-hash  # Extended (only for IPFS features)
+```
+
+**Or install everything:**
+```bash
+cd scripts/ && npm install
+```
+
+### What You Need
+
+| Dependency | Used By | Purpose |
+|------------|---------|---------|
+| `viem` | **ALL scripts** | Ethereum blockchain interactions |
+| `content-hash` | IPFS scripts only | Encode/decode IPFS CIDs |
+
+**See [DEPENDENCIES.md](DEPENDENCIES.md) for detailed installation guide.**
+
+**See [QUICK-START.md](QUICK-START.md) for copy-paste operational commands.**
+
+
 ## 🚀 Installation
 
 ```bash
