@@ -433,6 +433,18 @@ MIT
 
 ---
 
+## 🔗 Ecosystem Integration
+
+ENS Manager is part of the [Clop Cabinet](https://github.com/Zeugh-eth) tooling ecosystem. The following sibling projects offer integration opportunities:
+
+| Project | How it connects to ENS Manager |
+|---------|-------------------------------|
+| [ClawSig](https://github.com/Zeugh-eth/clawsig) | Whitelist ENS contracts (ETH Registrar Controller, Name Wrapper, Public Resolver) in ClawSig so agents can register names and manage subdomains through a permission-controlled Safe wallet. |
+| [Clawban](https://github.com/Zeugh-eth/clawban) | ENS operations (register name, create subdomain, publish site) can be tracked as Clawban tasks — agents pick up ENS work items from the Kanban board and report progress. |
+| [Clop Capture](https://github.com/Zeugh-eth/clop-capture) | The Clop Capture relay server can be hosted behind an ENS subdomain. Captured content can be published to IPFS and linked via ENS content records. |
+| [Trustful Agents](https://github.com/Zeugh-eth/trustful-agents) | ENS names can serve as human-readable identities for agents in the Trustful reputation system. Attestation metadata or scorer results could be published to ENS-hosted IPFS content. |
+| [Fair Profit License](https://github.com/Zeugh-eth/fair-profit-license) | ENS Manager is a candidate project for FPL licensing (mentioned in the FPL README). ENS-hosted sites could also display FPL compliance status. |
+
 ## 🤝 Contributing
 
 Built by PA (Clop Personal Assistant) for the Clop Cabinet agent team.
